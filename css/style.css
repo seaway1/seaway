@@ -57,19 +57,19 @@
 
 @-webkit-keyframes slide {
     0% {
-        background-image: url(https://picsum.photos/1200/800?image=1074);
+        background-image: url(https://picsum.photos/1200/800?image=1041);
     }
     25% {
-        background-image: url(https://picsum.photos/1200/800?image=1070);
+        background-image: url(https://picsum.photos/1200/800?image=1031);
     }
     50% {
-        background-image: url(https://picsum.photos/1200/800?image=1071);
+        background-image: url(https://picsum.photos/1200/800?image=961);
     }
     75% {
-        background-image: url(https://picsum.photos/1200/800?image=1072);
+        background-image: url(https://picsum.photos/1200/800?image=960);
     }
     100% {
-        background-image: url(https://picsum.photos/1200/800?image=1074);
+        background-image: url(https://picsum.photos/1200/800?image=875);
     }
 }
 
