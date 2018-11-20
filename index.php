@@ -11,13 +11,33 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.13/css/mdb.min.css" rel="stylesheet">
     <!--  font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <!-- local css -->
+    <link rel="stylesheet" href="css/style.css">
     <title>seaway</title>
   </head>
   <body>
       <head>
           <?php include('includes/nav.html');?>
       </head>
+      <div class="slider">
+        <div class="load">
+
+        </div>
+        <div class="content">
+          <div class="principal">
+              <h1>SEAWAY TRAVELER</h1>
+              <P>Seaway Travelers Limitedis Tours and Travel Company in Kenya that handles; Air ticketing 
+both Domestic and International flights , Visa and Passport application, Car Hire, Hotel 
+Bookings, Event management and consultancy, Meetings, Conferences ,Safaris, Beach 
+Holidays, Package Tours and Holidays. 
+Contacts +254790836731. 
+Welcome. </P>
+          </div>
+
+
+        </div>
+
+      </div>
     
       <!-- footer -->
     <div>
