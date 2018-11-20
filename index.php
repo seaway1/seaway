@@ -16,6 +16,7 @@
     <title>seaway</title>
   </head>
   <body>
+  <a name="top"></a>
       <head>
           <?php include('includes/nav.html');?>
       </head>
@@ -39,19 +40,22 @@
 
       </div>
       <div class="container-fluid" id="sliders">
+      <a name="services"></a>
         <div class="row ml-auto mr-auto">
-          <!-- slider 1 -->
+          <!-- services-->
           <div class="card col-md-5" id="slide1">
           <div class="card-header red-text text-center" style="margin-top: 10px;">
                 <h3> Our Services</h3>
                 <div class="card-body">
                   <?php include('includes/slider.html');?>
-                  <a class="btn btn-primary" href="#">More Info</a>
+                 
                 </div>
             </div>
          
           </div>
+          <!-- about us content -->
           <div class=" card col-md-6" style="margin-left:20px;">
+          <a name="aboutus"></a>
             <div class="card-header red-text text-center" style="margin-top: 10px;">
                 <h3> About Us</h3>
             </div>
@@ -74,9 +78,14 @@
         
         </div>
       </div>
+      <!-- button link to top of page -->
+      <div class="row col-md-12 ">
+        <a href="#top" class=" mr-auto ml-auto btn btn-outline-info rounded btn-block z-depth-0 my-4 waves-effect" style="width:200px; margin-top: auto; margin-bottom: auto;">back to top</a>
+    </div>
     
       <!-- footer -->
     <div>
+    <a name="contucts"></a>
         <?php include('includes/footer.html');?>
     </div>
 
