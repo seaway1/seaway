@@ -27,16 +27,20 @@
           <div class="principal">
               <h1>SEAWAY TRAVELER</h1>
               <P>Seaway Travelers Limitedis Tours and Travel Company in Kenya that handles; Air ticketing 
-both Domestic and International flights , Visa and Passport application, Car Hire, Hotel 
-Bookings, Event management and consultancy, Meetings, Conferences ,Safaris, Beach 
-Holidays, Package Tours and Holidays. 
-Contacts +254790836731. 
-Welcome. </P>
+                  both Domestic and International flights , Visa and Passport application, Car Hire, Hotel 
+                  Bookings, Event management and consultancy, Meetings, Conferences ,Safaris, Beach 
+                  Holidays, Package Tours and Holidays. 
+                  Contacts +254790836731. 
+                  Welcome. 
+</P>
           </div>
 
 
         </div>
 
+      </div>
+      <div>
+        <?php include('includes/slider.html');?>
       </div>
     
       <!-- footer -->
