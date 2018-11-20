@@ -26,13 +26,15 @@
         </div>
         <div class="content">
           <div class="principal">
-              <h1>SEAWAY TRAVELER</h1>
-              <P>Seaway Travelers Limitedis Tours and Travel Company in Kenya that handles; Air ticketing 
+          <h1 class="h1-responsive font-weight-bold mt-sm-5">Seaway Travelers</h1>
+                    <hr class="hr-light">
+                    <h6 class="mb-4">
+                      Seaway Travelers Limitedis Tours and Travel Company in Kenya that handles; Air ticketing 
                   both Domestic and International flights , Visa and Passport application, Car Hire, Hotel 
                   Bookings, Event management and consultancy, Meetings, Conferences ,Safaris, Beach 
                   Holidays, Package Tours and Holidays.<br>
                   Welcome. 
-</P>
+                </h6>
           </div>
 
 
@@ -60,6 +62,7 @@
                 <h3> About Us</h3>
             </div>
             <div class="card-body">
+              
             
             <p>
             We are very excited to introduce <b>SEAWAY TRAVELERS LIMITED</b> as the one stop provider for 
