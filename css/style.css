@@ -75,3 +75,9 @@
         background-image: url('../images/carhire.jpg');
     }
 }
+
+#sliders {
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+}

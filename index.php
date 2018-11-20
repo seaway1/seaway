@@ -29,8 +29,7 @@
               <P>Seaway Travelers Limitedis Tours and Travel Company in Kenya that handles; Air ticketing 
                   both Domestic and International flights , Visa and Passport application, Car Hire, Hotel 
                   Bookings, Event management and consultancy, Meetings, Conferences ,Safaris, Beach 
-                  Holidays, Package Tours and Holidays. 
-                  Contacts +254790836731. 
+                  Holidays, Package Tours and Holidays.<br>
                   Welcome. 
 </P>
           </div>
@@ -39,8 +38,41 @@
         </div>
 
       </div>
-      <div>
-        <?php include('includes/slider.html');?>
+      <div class="container-fluid" id="sliders">
+        <div class="row ml-auto mr-auto">
+          <!-- slider 1 -->
+          <div class="card col-md-5" id="slide1">
+          <div class="card-header red-text text-center" style="margin-top: 10px;">
+                <h3> Our Services</h3>
+                <div class="card-body">
+                  <?php include('includes/slider.html');?>
+                  <a class="btn btn-primary" href="#">More Info</a>
+                </div>
+            </div>
+         
+          </div>
+          <div class=" card col-md-6" style="margin-left:20px;">
+            <div class="card-header red-text text-center" style="margin-top: 10px;">
+                <h3> About Us</h3>
+            </div>
+            <div class="card-body">
+            
+            <p>
+            We are very excited to introduce <b>SEAWAY TRAVELERS LIMITED</b> as the one stop provider for 
+            all your travel needs and requirements. We label ourselves as leading, innovative, and highly 
+            efficient and look forward to demonstrate these qualities at the earliest possible chance. 
+            Since established in 2018, the primary aim was to provide quality travel services to business 
+            and leisure travelers. The agency continued to grow and branch out its interests to rise as one 
+            of the exponents in the travel industry. 
+            Supported by strong financial management, impressive customer satisfaction and constant 
+            improvement, Seaway Travelers has expanded to cover various facets of the industry. Our 
+            experience led to perfection in both our outbound and inbound units. 
+            </p>
+            </div>
+           
+        </div>
+        
+        </div>
       </div>
     
       <!-- footer -->
