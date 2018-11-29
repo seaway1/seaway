@@ -20,13 +20,18 @@
   <body>
   <a name="top"></a>
       <head>
-          <?php include 'includes/nav.html'; ?>
+
       </head>
       <div class="slider">
         <div class="load">
 
         </div>
         <div class="content">
+            <div class="row">
+                <div class="container col-md-8">
+                    <?php include 'includes/nav.html'; ?>
+                </div>
+            </div>
           <div class="principal">
           <h1 class="h1-responsive font-weight-bold mt-sm-5">Seaway Travelers</h1>
                     <hr class="hr-light">
@@ -43,38 +48,39 @@
         </div>
 
       </div>
-      <div class="container-fluid">
-        <div class="owl-carousel owl-theme">
-          <div class="item"><h4>1</h4></div>
-          <div class="item"><h4>2</h4></div>
-          <div class="item"><h4>3</h4></div>
-          <div class="item"><h4>4</h4></div>
-          <div class="item"><h4>5</h4></div>
-          <div class="item"><h4>6</h4></div>
-          <div class="item"><h4>7</h4></div>
-          <div class="item"><h4>8</h4></div>
-          <div class="item"><h4>9</h4></div>
-          <div class="item"><h4>10</h4></div>
-          <div class="item"><h4>11</h4></div>
-          <div class="item"><h4>12</h4></div>
+  <div class="container mt-5">
+      <div class="row">
+
+
+          <div class="owl-carousel owl-theme">
+              <div class="item"><img alt="image" class="img-fluid" src="images/drinkshtl.jpg"></div>
+              <div class="item"><img alt="image" class="img-fluid" src="images/carhire.jpg"></div>
+              <div class="item"><img alt="image" class="img-fluid" src="images/deliveryServices.jpg"></div>
+              <div class="item"><img alt="image" class="img-fluid" src="images/eventManagement.jpg"></div>
+              <div class="item"><img alt="image" class="img-fluid" src="images/mountains.jpg"></div>
+              <div class="item"><img alt="image" class="img-fluid" src="images/plane.jpg"></div>
+              <div class="item"><img alt="image" class="img-fluid" src="images/sewaylogo.jpg"></div>
+
+          </div>
       </div>
-      </div>
+  </div>
       <div class="container-fluid" id="sliders">
       <a name="services"></a>
         <div class="row ml-auto mr-auto">
           <!-- services-->
-          <div class="card col-md-5" id="slide1">
-          <div class="card-header red-text text-center" style="margin-top: 10px;">
-                <h3> Our Services</h3>
-                <div class="card-body">
-                  <?php include 'includes/slider.html'; ?>
-                 
-                </div>
-            </div>
-         
-          </div>
+<!--          <div class="card col-md-5" id="slide1">-->
+<!--          <div class="card-header red-text text-center" style="margin-top: 10px;">-->
+<!--                <h3> Our Services</h3>-->
+<!--          </div>-->
+<!--                <div class="card-body">-->
+<!--                  --><?php //include 'includes/slider.html'; ?>
+<!--                 -->
+<!--                </div>-->
+<!---->
+<!--         -->
+<!--          </div>-->
           <!-- about us content -->
-          <div class=" card col-md-6" style="margin-left:20px;">
+          <div class=" card col-md-12" style="margin-left:20px;">
           <a name="aboutus"></a>
             <div class="card-header red-text text-center" style="margin-top: 10px;">
                 <h3> About Us</h3>
@@ -110,9 +116,8 @@
         <?php include 'includes/footer.html'; ?>
     </div>
 
-    <!-- owl carousel js -->
-    <script src="OwlCarousel/js/owl.carousel.min.js"></script>
-    <script src="js/owlcarousel.js"></script>
+
+
      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <!-- Jquery -->
       <script src="MDB/js/jquery-3.3.1.min.js"></script>
@@ -121,5 +126,28 @@
     
     <!-- bootsrap.js -->
     <script src="MDB/js/bootstrap.min.js"></script>
+  <!-- owl carousel js -->
+  <script src="OwlCarousel/js/owl.carousel.min.js"></script>
+  <script type="text/javascript">
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:false,
+          dot:false,
+          center:true,
+          autoplay:true,
+          responsive:{
+              0:{
+                  items:1
+              },
+              480:{
+                  items:3
+              },
+              768:{
+                  items:5
+              }
+          }
+      })
+  </script>
     </body>
 </html>
