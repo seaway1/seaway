@@ -26,31 +26,33 @@
         </div>
         <div class="content">
             <div class="row">
-                <div class="container col-md-8">
+                <div class="container col-md-8" id="positionnav">
                     <?php include 'includes/nav.html'; ?>
+                </div>
+            </div>
+            <!--Owl carousel-->
+            <div class="container" id="owlstuff">
+                <div class="row">
+
+
+                    <div class="owl-carousel owl-theme">
+                        <div class="item"><img alt="image" class="img-fluid" src="images/drinkshtl.jpg"></div>
+                        <div class="item"><img alt="image" class="img-fluid" src="images/carhire.jpg"></div>
+                        <div class="item"><img alt="image" class="img-fluid" src="images/deliveryServices.jpg"></div>
+                        <div class="item"><img alt="image" class="img-fluid" src="images/eventManagement.jpg"></div>
+                        <div class="item"><img alt="image" class="img-fluid" src="images/mountains.jpg"></div>
+                        <div class="item"><img alt="image" class="img-fluid" src="images/plane.jpg"></div>
+                        <div class="item"><img alt="image" class="img-fluid" src="images/sewaylogo.jpg"></div>
+
+                    </div>
                 </div>
             </div>
 
         </div>
 
+
       </div>
-<!--Owl carousel-->
-  <div class="container mt-5">
-      <div class="row">
 
-
-          <div class="owl-carousel owl-theme">
-              <div class="item"><img alt="image" class="img-fluid" src="images/drinkshtl.jpg"></div>
-              <div class="item"><img alt="image" class="img-fluid" src="images/carhire.jpg"></div>
-              <div class="item"><img alt="image" class="img-fluid" src="images/deliveryServices.jpg"></div>
-              <div class="item"><img alt="image" class="img-fluid" src="images/eventManagement.jpg"></div>
-              <div class="item"><img alt="image" class="img-fluid" src="images/mountains.jpg"></div>
-              <div class="item"><img alt="image" class="img-fluid" src="images/plane.jpg"></div>
-              <div class="item"><img alt="image" class="img-fluid" src="images/sewaylogo.jpg"></div>
-
-          </div>
-      </div>
-  </div>
 
       <!-- footer -->
     <div>
@@ -81,7 +83,7 @@
           autoplay:true,
           responsive:{
               0:{
-                  items:1
+                  items:3
               },
               480:{
                   items:3
