@@ -47,7 +47,7 @@
 .principal h1 {
     font-size: 70px;
     margin-bottom: 20px;
-    text-align: center
+    text-align: center;
 }
 
 .principal p {
@@ -81,4 +81,14 @@
     width: 100%;
     height: auto;
     overflow: hidden;
+}
+
+#aboutusbg{
+    background-image: url(https://picsum.photos/1200/800?image=1022);
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.active{
+    border-bottom: 2px solid white;
 }
