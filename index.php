@@ -83,7 +83,7 @@
           autoplay:true,
           responsive:{
               0:{
-                  items:1
+                  items:3
               },
               480:{
                   items:3
