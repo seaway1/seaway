@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="MDB/css/bootstrap.min.css">
     <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.13/css/mdb.min.css" rel="stylesheet">
-    <!--  font awesome cdn-->
+    <link href="MDB/css/mdb.min.css" rel="stylesheet"><!--  font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- local css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- owlcarousal css -->
+    <link rel="stylesheet" href="OwlCarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel/css/owl.theme.default.min.css">
     <title>seaway</title>
   </head>
   <body>
   <a name="top"></a>
       <head>
-          <?php include('includes/nav.html');?>
+          <?php include 'includes/nav.html'; ?>
       </head>
       <div class="slider">
         <div class="load">
@@ -41,6 +43,22 @@
         </div>
 
       </div>
+      <div class="container-fluid">
+        <div class="owl-carousel owl-theme">
+          <div class="item"><h4>1</h4></div>
+          <div class="item"><h4>2</h4></div>
+          <div class="item"><h4>3</h4></div>
+          <div class="item"><h4>4</h4></div>
+          <div class="item"><h4>5</h4></div>
+          <div class="item"><h4>6</h4></div>
+          <div class="item"><h4>7</h4></div>
+          <div class="item"><h4>8</h4></div>
+          <div class="item"><h4>9</h4></div>
+          <div class="item"><h4>10</h4></div>
+          <div class="item"><h4>11</h4></div>
+          <div class="item"><h4>12</h4></div>
+      </div>
+      </div>
       <div class="container-fluid" id="sliders">
       <a name="services"></a>
         <div class="row ml-auto mr-auto">
@@ -49,7 +67,7 @@
           <div class="card-header red-text text-center" style="margin-top: 10px;">
                 <h3> Our Services</h3>
                 <div class="card-body">
-                  <?php include('includes/slider.html');?>
+                  <?php include 'includes/slider.html'; ?>
                  
                 </div>
             </div>
@@ -89,13 +107,19 @@
       <!-- footer -->
     <div>
     <a name="contucts"></a>
-        <?php include('includes/footer.html');?>
+        <?php include 'includes/footer.html'; ?>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <!-- owl carousel js -->
+    <script src="OwlCarousel/js/owl.carousel.min.js"></script>
+    <script src="js/owlcarousel.js"></script>
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <!-- Jquery -->
+      <script src="MDB/js/jquery-3.3.1.min.js"></script>
+    <!-- popper js -->
+    <script src="MDB/js/popper.min.js"></script>
+    
+    <!-- bootsrap.js -->
+    <script src="MDB/js/bootstrap.min.js"></script>
+    </body>
 </html>
