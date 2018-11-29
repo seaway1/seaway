@@ -15,7 +15,9 @@
     <title>About Seaway Travelers</title>
 </head>
 <body>
-<div class="row">
+
+<!--nav-->
+<div class="row mt-1">
     <div class="container col-md-8">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary  rounded">
         <a class="navbar-brand pt-0 waves-effect" href="">
@@ -33,7 +35,7 @@
                     <a class="nav-link" href="../">Home </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
+                    <a class="nav-link" href="../services">Services</a>
                 </li>
 
                 <li class="nav-item">
@@ -67,15 +69,69 @@
     </div>
 </div>
 
+<!--intro-->
+<div class="row mt-1">
+    <div class="container col-md-11">
+        <div class="card white-text " id="aboutusbg">
+            <h1 class="h1-responsive font-weight-bold text-center">Seaway Travelers</h1>
+            <hr class="hr-dar">
+            <h6 class="mb-4 ml-2">
+                Seaway Travelers Limitedis Tours and Travel Company in Kenya that handles; Air ticketing
+                both Domestic and International flights , Visa and Passport application, Car Hire, Hotel
+                Bookings, Event management and consultancy, Meetings, Conferences ,Safaris, Beach
+                Holidays, Package Tours and Holidays.<br>
+                Welcome.
+            </h6>
+        </div>
+
+
+    </div>
+
+</div>
+
+<!--about us content-->
+<div class="row mt-2">
+<div class=" container col-md-11">
+    <div class="card ">
+    <div class="card-header red-text text-center">
+        <h3> About Us</h3>
+    </div>
+    <div class="card-body">
+
+
+        <p>
+            We are very excited to introduce <b>SEAWAY TRAVELERS LIMITED</b> as the one stop provider for
+            all your travel needs and requirements. We label ourselves as leading, innovative, and highly
+            efficient and look forward to demonstrate these qualities at the earliest possible chance.
+            Since established in 2018, the primary aim was to provide quality travel services to business
+            and leisure travelers. The agency continued to grow and branch out its interests to rise as one
+            of the exponents in the travel industry.
+            Supported by strong financial management, impressive customer satisfaction and constant
+            improvement, Seaway Travelers has expanded to cover various facets of the industry. Our
+            experience led to perfection in both our outbound and inbound units.
+        </p>
+    </div>
+    </div>
+</div>
+</div>
+
+<!--footer-->
+<div class="row mt-5">
+    <a name="contucts"></a>
+    <div class="container col-md-11">
+    <?php include '../includes/footer.html';?>
+    </div>
+</div>
+
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <!-- Jquery -->
-<script src="MDB/js/jquery-3.3.1.min.js"></script>
+<script src="../MDB/js/jquery-3.3.1.min.js"></script>
 <!-- popper js -->
-<script src="MDB/js/popper.min.js"></script>
+<script src="../MDB/js/popper.min.js"></script>
 
 <!-- bootsrap.js -->
-<script src="MDB/js/bootstrap.min.js"></script>
+<script src="../MDB/js/bootstrap.min.js"></script>
 
 </body>
 </html>
