@@ -56,20 +56,24 @@
 
 @-webkit-keyframes slide {
     0% {
-        background-image: url(https://picsum.photos/1200/800?image=1041);
+        background-image: url(../images/image1.jpg);
     }
-    25% {
-        background-image: url(https://picsum.photos/1200/800?image=1031);
+    20% {
+        background-image: url(../images/image14.jpg);
     }
-    50% {
-        background-image: url(https://picsum.photos/1200/800?image=961);
+    40% {
+        background-image: url(../images/image7.jpg);
     }
-    75% {
-        background-image: url(https://picsum.photos/1200/800?image=960);
+    60% {
+        background-image: url(../images/image10.jpg);
+    }
+    80% {
+        background-image: url(../images/image21.jpg);
     }
     100% {
-        background-image: url(https://picsum.photos/1200/800?image=875);
-    }
+        background-image: url(../images/image12.jpg);
+    }   
+    
 }
 
 #sliders {
@@ -130,3 +134,17 @@
     }
 }
 
+#aboutusbg h6{
+    font-family:Tahoma, Verdana, Segoe, sans-serif;
+    /* font-style: italic; */
+}
+
+#aboutusbg h1{
+
+    font-family:Tahoma, Verdana, Segoe, sans-serif;
+    font-style: italic;
+}
+#aboutusbg hr{
+    border: 3px solid white;
+    border-radius: 1px;
+}

@@ -24,7 +24,7 @@
             <img src="../images/sewaylogo.jpg" width="70" height="50" class="d-inline-block align-top rounded" alt="SeaWay logo">
 
         </a>
-        <h2 class=" white-text">Seaway Travelers</h2>
+        <h2 class=" white-text font-italic">Seaway Travelers</h2>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,7 +47,7 @@
             </ul>
             <ul class="navbar-nav nav-flex-icons">
                 <li class="nav-item">
-                    <a href="#" class="nav-link waves-effect">
+                    <a href="https://www.facebook.com/seawaytravelers/" class="nav-link waves-effect">
                         <i class="fa fa-facebook"></i>
                     </a>
                 </li>
@@ -62,6 +62,11 @@
                         <i class="fa fa fa-linkedin"></i>
                     </a>
                 </li>
+                <li class="nav-item">
+                <a href="instagram.com/seawaytravelers" class="nav-link waves-effect">
+                    <i class="fa fa-instagram white-text"> </i>
+                </a>
+            </li>
 
             </ul>
         </div>
@@ -75,7 +80,7 @@
         <div class="card white-text " id="aboutusbg">
             <h1 class="h1-responsive font-weight-bold text-center">Seaway Travelers</h1>
             <hr class="hr-dar">
-            <h6 class="mb-4 ml-2">
+            <h6 class="mb-4 ml-2 lead">
                 Seaway Travelers Limitedis Tours and Travel Company in Kenya that handles; Air ticketing
                 both Domestic and International flights , Visa and Passport application, Car Hire, Hotel
                 Bookings, Event management and consultancy, Meetings, Conferences ,Safaris, Beach
@@ -94,12 +99,12 @@
 <div class=" container col-md-11">
     <div class="card ">
     <div class="card-header red-text text-center">
-        <h3> About Us</h3>
+        <h3 class="font-weight-bold"> About Us</h3>
     </div>
     <div class="card-body">
 
 
-        <p>
+        <p class="lead">
             We are very excited to introduce <b>SEAWAY TRAVELERS LIMITED</b> as the one stop provider for
             all your travel needs and requirements. We label ourselves as leading, innovative, and highly
             efficient and look forward to demonstrate these qualities at the earliest possible chance.
@@ -119,7 +124,7 @@
 <div class="row mt-5">
     <a name="contucts"></a>
     <div class="container col-md-11">
-    <?php include '../includes/footer.html';?>
+    <?php include '../includes/footer.html'; ?>
     </div>
 </div>
 

@@ -36,13 +36,13 @@
 
 
                     <div class="owl-carousel owl-theme">
-                        <div class="item"><img alt="image" class="img-fluid" src="images/drinkshtl.jpg"></div>
-                        <div class="item"><img alt="image" class="img-fluid" src="images/carhire.jpg"></div>
-                        <div class="item"><img alt="image" class="img-fluid" src="images/deliveryServices.jpg"></div>
-                        <div class="item"><img alt="image" class="img-fluid" src="images/eventManagement.jpg"></div>
-                        <div class="item"><img alt="image" class="img-fluid" src="images/mountains.jpg"></div>
-                        <div class="item"><img alt="image" class="img-fluid" src="images/plane.jpg"></div>
-                        <div class="item"><img alt="image" class="img-fluid" src="images/sewaylogo.jpg"></div>
+                        <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image15.jpg"></a></div>
+                        <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image16.jpg"></a></div>
+                        <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image17.jpg"></a></div>
+                        <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image28.jpg"></a></div>
+                        <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image19.jpg"></a></div>
+                        <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image11.jpg"></a></div>
+                        <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image26.jpg"></a></div>
 
                     </div>
                 </div>
@@ -89,6 +89,12 @@
                   items:3
               },
               768:{
+                  items:5
+              },
+              1000:{
+                  items:5
+              },
+              1200:{
                   items:5
               }
           }
