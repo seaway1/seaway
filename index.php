@@ -36,11 +36,11 @@
 
 
                     <div class="owl-carousel owl-theme">
-                        <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image15.jpg"></a></div>
-                        <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image16.jpg"></a></div>
+                        <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image39.jpg"></a></div>
+                        <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/drinkshtl.jpg"></a></div>
                         <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image17.jpg"></a></div>
                         <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image28.jpg"></a></div>
-                        <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image19.jpg"></a></div>
+                        <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/plane.jpg"></a></div>
                         <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image11.jpg"></a></div>
                         <div class="item"><a href="services"><img alt="image" class="img-fluid" src="images/image26.jpg"></a></div>
 
