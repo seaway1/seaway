@@ -43,7 +43,7 @@
                         <a class="nav-link" href="../aboutus">About Us <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contucts">Contuct us </a>
+                        <a class="nav-link" href="#contucts">Contact us </a>
                     </li>
                 </ul>
                 <ul class="navbar-nav nav-flex-icons">
